@@ -1,16 +1,7 @@
-# Scale institutional knowledge using Copilot Spaces
+OctoAcme uses a structured, lifecycle-based project management model that moves work from initiation through planning, execution, release, and retrospective. The project docs emphasize starting with a clear business case and one-pager, validating stakeholders and success metrics, and only moving forward when the team has agreement on priority, scope, and availability. From there, planning translates the initiative into a backlog, estimates, milestones, dependencies, and a definition of done. In execution, the team follows a regular cadence of standups, weekly delivery check-ins, and sprint or milestone reviews, while using GitHub project boards and issue tracking to manage work through stages such as Backlog, Ready, In Progress, In Review, QA, and Done.
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+The operating model is grounded in clearly defined roles and responsibilities. Developers are accountable for building, testing, and delivering reliable features; Product Managers define the problem, backlog priorities, and customer value; Project Managers coordinate timelines, risks, dependencies, and stakeholder communication; and QA/testing supports acceptance validation and quality assurance. The docs also note the importance of stakeholder alignment and cross-functional collaboration, with teams expected to operate with shared ownership, clear accountability, and a customer-first mindset. This combination of roles helps ensure that delivery is not just technically sound, but also aligned with business value and organizational priorities.
 
-Hey deejai1164!
+Communication is treated as a core project control. OctoAcme recommends weekly PM/Product updates, regular delivery standups, milestone-based stakeholder briefings, and escalation paths for risks or blockers. The risk and communication guidance also calls for one source of truth for status, such as a project README or release document, and includes templates for weekly updates, escalation, and incident communication. When dependencies or blockers emerge, the process emphasizes escalation from the team to the PM, Product Lead, and ultimately sponsor-level attention when business impact is significant. This creates transparency and helps reduce single-threaded knowledge dependency.
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
-
-Remember, it's self-paced so feel free to take a break! ☕️
-
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/deejai1164/skills-scale-institutional-knowledge-using-copilot-spaces1/issues/1)
-
----
-
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
+Quality assurance is built into the workflow rather than added at the end. The docs require unit and integration testing, smoke tests for critical flows, security scanning in CI, and manual QA where needed for acceptance. PRs are expected to be small, include issue references and acceptance criteria, and pass automated checks before review; merging usually requires at least one approval. The release and deployment guidance adds pre-release validation, rollback planning, and post-deploy verification, while retrospectives capture what went well, what needs improvement, and what action items should be tracked in the backlog. Together, these practices create a repeatable, low-risk execution model focused on iterative delivery, measurable outcomes, and continuous improvement.
